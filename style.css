@@ -1,0 +1,37 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: "Tahoma";
+}
+
+nav{
+	font-size: 18px;
+}
+
+nav ul{
+	list-style: none;//Sin dibujitos de lista
+	position: fixed;//Estatica
+}
+
+nav ul li{
+	display: inline-block;//La lista horizontalmente
+}
+
+nav a{
+	text-decoration: none;//Link sin subrayar solo en nav
+	color: black;
+}
+
+/*#Inicio{
+	height: 800px;
+}
+
+#imagenPrincipal{
+	height: 895px;
+	position: absolute;
+    clip: rect(130px,1348px,800px, 0px);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+*/
